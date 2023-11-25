@@ -1,0 +1,85 @@
+.wrapper {
+  padding-left: 170px;
+  padding-right: 170px;
+}
+.header {
+  background: #1F9FC9;
+}
+.header-content {
+  color: white;
+}
+.logo-img {
+  text-align: right;
+}
+
+
+.header .logo-row {
+  padding-top: 20px;
+}
+.moreBtn {
+  border-radius: 0 !important;
+}
+.main-content {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.main-contact {
+  background: #ddd;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.form-control {
+  border-radius: 0;
+  border-color: #222;
+}
+.footer {
+  background: #1F9FC9;
+  text-align: center;
+  color: white;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes slideInRight {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+.hlogo {
+  animation: fadeIn 2s ease-in-out;
+}
+.cLeft {
+  animation: slideInLeft 1.5s ease-out;
+}
+.cRight {
+  animation: slideInRight 1.5s ease-out;
+}
+.tContent:hover h3 {
+  animation: slideInLeft 1.5s ease-out;
+}
+.tContact:hover h4 {
+  animation: slideInLeft 1s ease-out;
+}
+.contact:hover h4 {
+  animation: slideInLeft 1.5s ease-out;
+}
